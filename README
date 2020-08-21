@@ -1,0 +1,62 @@
+TASK 1
+
+Intr-un nou vector v calculez produsul tuturor elementelor din vectorul initial
+mai putin al elementului curent prin impartirea produsului tuturor elementelor
+din vectorul intial la elementul curent, daca acesta e diferit de 0. 
+
+TASK 2
+
+Intr-o noua matrice m plasez elementele din matricea data pe pozitia
+corespunzatoare.
+
+TASK 3
+
+Pentru fiecare set de queries, calculez suma elementelor din submatricea
+determinata de coordonatele date.
+
+TASK 4
+
+Structura TRide va contine coordonatele sub forma de variabile de tip double, 
+si starea cursei de tip char.
+Structura TDriver va contine variabilele de tip char nume si platenr,
+variabilele de tip double pentru locatia curenta, numarul curselor si vectorul
+de referinte curse de tip TRide.
+In functia allocDriver, aloc memorie pentru un sinfur sofer si pentru vectorul
+sau de curse, iar in functia allocDrivers aloc memorie pentru un vector de
+sorferi, apeland functia allocDriver
+
+TASK 5
+
+Citesc din fisierul de input numarul de soferi si vectorul ce contine numarul
+de curse pentru fiecare sofer cu ajutorul functiei fread.
+Pentru fiecare sofer, citesc numele, coordonatele locatiei curente, si
+informatiile curselor soferului.
+Pentru fiecare sofer, afisez informatiile sale si informatiile curselor sale
+in fisierul de output folosinf functia fwrite.
+
+TASK 6
+
+Pentru fiecare sofer, calculez rating ul sau astfel:
+Pentru fiecare cursa a soferului, daca in variabila state exista un numar intre
+0 si 5, acesta este adunat la numarul total de stele. Alfel, cursa nu este una
+valida, deci este scazuta din numarul total de curse.
+Daca numarul de curse rezultat este diferit de 0, rating ul este calculat prin
+imparirea numarului de stele la numarul de curse valide.
+Pentru fiecare sofer, se verifica daca ratingul acestuia este maxim, iar in caz
+afirmativ se retine pozitia soferului. 
+
+TASK 7
+
+Construiesc un vector de distante si unul de indici pentru a sorta soferii in
+ordinea crescatoare a distantelor dintre locatia curenta si locatia ceruta.
+Sortez vectorul de indici, apoi construiesc un vector ce va contine informatiile
+soferilor cei mai apropiati de locatia ceruta.
+
+TASK 8
+
+Eliberez memoria alocata unui sofer si vectorului de soferi folosind functia
+free.
+
+
+
+
